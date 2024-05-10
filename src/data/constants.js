@@ -218,34 +218,13 @@ export const experiences = [
     role: "SDE Intern",
     company: "TSS Consultancy Pvt. Ltd.",
     date: "December 2023 - April 2024",
-    desc: "As a Software Development Engineer (SDE) intern, I am actively engaged in a dynamic internship at TSS Consultancy Pvt Ltd., contributing to a live project focused on developing an SDK library for clients. The primary objective of this project involves the seamless communication between clients and the API endpoint. My responsibilities include receiving crucial information from clients in JSON format, encrypting the data using the SDK, and securely transmitting it to the API endpoint. Additionally, I am involved in retrieving encrypted data from the endpoint, decrypting the JSON format, and ensuring the integrity of the data flow. This internship is an ongoing opportunity, allowing me to further enhance my skills and contribute to the successful implementation of this significant project.",
+    desc: "As a Software Development Engineer (SDE) intern, I am actively engaged in a dynamic internship at TSS Consultancy Pvt Ltd., contributing to a live project focused on developing an SDK library for clients. The primary objective of this project involves the seamless communication between clients and the API endpoint. My responsibilities include receiving crucial information from clients in JSON format, encrypting the data using the SDK, and securely transmitting it to the API endpoint. Additionally, I am involved in retrieving encrypted data from the endpoint, decrypting the JSON format, and ensuring the integrity of the data flow. This internship provided me an opportunity, allowing me to further enhance my skills and contribute to the successful implementation of this significant project.",
     skills: [
       "Java",
       "OOPS"
     ],
     doc: ""
-  }
-  // {
-  //   id: 1,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-  //   role: "DevOps & Fullstack Engineering Intern",
-  //   company: "Flipr Inovations Pvt. Ltd.",
-  //   date: "Aug 2023 - Oct 2023",
-  //   desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
-  //   skills: [
-  //     "Docker",
-  //     "Terraform",
-  //     "AWS",
-  //     "EC2",
-  //     "Portainer",
-  //     "Nginx",
-  //     "JavaScript",
-  //     "TypeScript",
-  //     "Node Js",
-  //     " Next Js",
-  //   ],
-  //   doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
-  // }
+  },
 ];
 
 export const education = [
@@ -272,13 +251,13 @@ export const education = [
 
 export const projects = [
   {
-    id: 1,
+    id: 0,
     title: "DivineDecor",
     date: "Dec 2023 - April 2024",
     description:
       "An Ecommerce Platform for Booking the Idols(Murti) and Mandap for any Festive Occasion or Wedding Celeberation.",
     image:
-      "",
+      "https://i.postimg.cc/ZnLCLfnG/image.png",
     tags: [
       "React Js",
       "Node Js",
@@ -306,78 +285,26 @@ export const projects = [
     ],
   },
   {
-    id: 9,
-    title: "AutoHub",
-    date: "Jun 2023 - Dec 2023",
-    description:
-      "Auto hub",
-    image:
-      "",
-    tags: [
-      "HTML",
-      "CSS",
-      "PHP",
-      "MYSQL"
-    ],
-    category: "web app",
-    github: "https://github.com/KushalMunjal/Car-Showroom-Management",
-    webapp: "https://github.com/KushalMunjal/Car-Showroom-Management",
-  },
-  {
-    id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
-    description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
-  },
-  {
     id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Jan 2023",
+    title: "MenuMee",
+    date: "Dec 2023 - Apr 2024",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "MenuMee is an app designed to digitize menus, offering users the convenience of selecting outlets based on location and ordering food directly from their table by scanning a table code.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+      "https://i.postimg.cc/63Zf0Ndy/Whats-App-Image-2024-05-10-at-15-31-20-ed640c03.jpg",
+    tags: ["Flutter", "Dart", "Firebase"],
+    category: "android app",
+    github: "https://github.com/KushalMunjal/MENUMEE",
+    webapp: "https://github.com/KushalMunjal/MENUMEE",
   },
   {
     id: 2,
-    title: "Image & Video Upscaler",
+    title: "Image Upscaler",
     date: "Dec 2023 - April 2024",
     description:
       "Image and Video Upscaler using Various Techniques like ESRGAN, RealESRGAN, BSRGAN etc.",
     image:
-      "",
+      "https://i.postimg.cc/7LDdCCVh/image.png",
     tags: ["Python", "Keras", "TensorFlow"],
     category: "machine learning",
     github: "https://github.com/KevalB/Image-Upscaler-AI",
@@ -399,81 +326,58 @@ export const projects = [
   },
   {
     id: 3,
-    title: "MENUMEE",
-    date: "Dec 2023 - Apr 2024",
+    title: "AutoHub",
+    date: "Jun 2023 - Dec 2023",
     description:
-      "A MeneMee App using Flutter & Firebase",
-    image:
-      "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Flutter", "Dart", "Firebase"],
-    category: "android app",
-    github: "https://github.com/KushalMunjal/MENUMEE",
-    webapp: "https://github.com/KushalMunjal/MENUMEE",
+    "This web-based system is designed to manage a car showroom's operations efficiently. It allows showroom staff to add new cars to inventory, update existing listings, and handle customer inquiries. The system provides features such as filtering cars by make, model, and price range, along with an intuitive interface for both staff and customers. It utilizes HTML for structure, CSS for styling, JavaScript for interactivity, and PHP for server-side processing and database management.",
+    image:"https://i.postimg.cc/rFgHRZvX/image.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "PHP",
+      "MYSQL"
+    ],
+    category: "web app",
+    github: "https://github.com/KushalMunjal/Car-Showroom-Management",
+    webapp: "https://github.com/KushalMunjal/Car-Showroom-Management",
   },
   {
-    id: 10,
+    id: 4,
     title: "BMI Calculator App",
     date: "Jun 2023 - Jul 2023",
     description:
-      "A BMI Calculator App Using Flutter & Firebase",
-    image:
-      "",
+    "This app calculates Body Mass Index (BMI) based on user input of height and weight. It provides a simple interface for users to input their measurements and instantly see their BMI.",
+    image:"https://i.postimg.cc/SNRGYYgx/image.png",
     tags: ["Flutter", "Firebase", "Dart"],
     category: "android app",
     github: "https://github.com/KushalMunjal/GST-Calculator-App",
     webapp: "https://github.com/KushalMunjal/GST-Calculator-App",
   },
   {
-    id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
-    description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
-  },
-  {
     id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
-    description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
-  },
-  {
-    id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
-    description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:
-      "https://camo.githubusercontent.com/937774368308a82419f53dd6eeb4a8675780e119636488b4e3cfe5d34859a72a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
-  },
-  {
-    id: 7,
     title: "GST-Calculator App",
     date: "Jun 2023 - Dec 2023",
     description:
-      "",
+      "This app helps users calculate Goods and Services Tax (GST) on their purchases. Users input the original price of an item and the applicable GST rate, and the app quickly calculates the total price including GST.",
     image:
-      "",
+      "https://i.postimg.cc/wMb00MLX/image.png",
     tags: ["Flutter", "Dart"],
     category: "android app",
     github: "https://github.com/KushalMunjal/GST-Calculator-App",
     webapp: "https://github.com/KushalMunjal/GST-Calculator-App",
+  },
+  {
+    id: 6,
+    title: "Hand Gestured Control Car",
+    date: "Sept 2021",
+    description:
+      "A cutting-edge project that enables control of car movements through Hand Gestures. Utilizes Arduino microcontroller, motor driver module, and wireless module for seamless integration.",
+    image:
+      "https://i.postimg.cc/QtGbBcmW/image.png",
+    tags: ["Arduino UNO", "RF Module", "L293D Motor Driver"],
+    category: "IoT",
+    github: "https://github.com/KushalMunjal/Hand-Gesture-Control-Car",
+    webapp: "https://github.com/KushalMunjal/Hand-Gesture-Control-Car/blob/main/doc_2024-05-10_15-15-43.mp4",
   },
 ];
 
