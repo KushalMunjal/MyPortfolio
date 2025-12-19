@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
@@ -256,7 +255,10 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src="https://avatars.githubusercontent.com/u/92504132?s=400&u=f9a2a2160f3161f54e292b9b05f345740d2cf39a&v=4" alt="Kushal Munjal" />
+                  <Img
+                    src="https://avatars.githubusercontent.com/u/92504132?s=400&u=f9a2a2160f3161f54e292b9b05f345740d2cf39a&v=4"
+                    alt="Kushal Munjal"
+                  />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>

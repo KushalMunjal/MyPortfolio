@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import { experiences } from "../../data/constants";
 import { VerticalTimeline } from "react-vertical-timeline-component";
@@ -6,13 +5,13 @@ import "react-vertical-timeline-component/style.min.css";
 import ExperienceCard from "../cards/ExperienceCard";
 
 const Container = styled.div`
-margin-top: 100px;
-display: flex;
-flex-direction: column;
-justify-content-center;
-position: relative;
-z-index: 1;
-align-items: center;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content-center;
+  position: relative;
+  z-index: 1;
+  align-items: center;
 `;
 const Wrapper = styled.div`
   position: relative;

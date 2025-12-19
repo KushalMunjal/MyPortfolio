@@ -1,7 +1,10 @@
-import React, { useRef } from "react";
+import { useRef, useState } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 import EarthCanvas from "../canvas/Earth";
+import.meta.env.VITE_EMAILJS_SERVICE_ID;
+import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const Container = styled.div`
   display: flex;
@@ -127,23 +130,25 @@ const ContactButton = styled.input`
 
 const Contact = () => {
   const form = useRef();
-
+  const [isSending, setIsSending] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
+    setIsSending(true);
     emailjs
       .sendForm(
-        "service_z2979xf",
-        "template_nv7k7mj",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form.current,
-        "SybVGsYS52j2TfLbi"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
-          alert("Message Sent");
-          form.current.resut();
+          setIsSending(false);
+          form.current.reset(); // fixed!
         },
         (error) => {
-          alert(error);
+          setIsSending(false);
+          alert("Error: " + error.text);
         }
       );
   };
@@ -156,13 +161,31 @@ const Contact = () => {
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm form ref={form} onSubmit={handleSubmit}>
+
+        <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" name="message" rows={4} />
-          <ContactButton type="submit" value="Send" />
+
+          {/* Hidden date field */}
+          <input
+            type="hidden"
+            name="date"
+            value={new Date().toLocaleString()}
+          />
+
+          <ContactInput placeholder="Your Email" name="from_email" required />
+          <ContactInput placeholder="Your Name" name="from_name" required />
+          <ContactInput placeholder="Subject" name="subject" required />
+          <ContactInputMessage
+            placeholder="Message"
+            name="message"
+            rows={4}
+            required
+          />
+          <ContactButton
+            type="submit"
+            value={isSending ? "Sending..." : "Send"}
+            disabled={isSending}
+          />
         </ContactForm>
       </Wrapper>
     </Container>
