@@ -1,10 +1,10 @@
 export const Bio = {
   name: "Kushal Munjal",
   roles: [
-    "Flutter Developer",
-    "Java Developer",
+    "Full Stack Developer",
     "Backend Developer",
-    "Programmer",
+    "Java Developer",
+    "Flutter Developer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -85,50 +85,50 @@ export const skills = [
       },
     ],
   },
-  // {
-  //   title: "DevOps",
-  //   skills: [
-  //     {
-  //       name: "AWS",
-  //       image:
-  //         "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
-  //     },
-  //     {
-  //       name: "Google Cloud",
-  //       image:
-  //         "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
-  //     },
-  //     {
-  //       name: "Docker",
-  //       image:
-  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-  //     },
-  //     {
-  //       name: "Jenkins",
-  //       image:
-  //         "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
-  //     },
-  //     {
-  //       name: "Nginx",
-  //       image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
-  //     },
-  //     {
-  //       name: "Grafana",
-  //       image:
-  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-  //     },
-  //     {
-  //       name: "Kubernetes",
-  //       image:
-  //         "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-  //     },
-  //     {
-  //       name: "Prometheus",
-  //       image:
-  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
-  //     },
-  //   ],
-  // },
+  {
+    title: "DevOps",
+    skills: [
+      // {
+      //   name: "AWS",
+      //   image:
+      //     "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+      // },
+      // {
+      //   name: "Google Cloud",
+      //   image:
+      //     "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
+      // },
+      {
+        name: "Docker",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      },
+      // {
+      //   name: "Jenkins",
+      //   image:
+      //     "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
+      // },
+      // {
+      //   name: "Nginx",
+      //   image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
+      // },
+      // {
+      //   name: "Grafana",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
+      // },
+      {
+        name: "Kubernetes",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
+      },
+      // {
+      //   name: "Prometheus",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
+      // },
+    ],
+  },
   {
     title: "Android",
     skills: [
@@ -215,16 +215,46 @@ export const experiences = [
   {
     id: 0,
     img: "https://i.postimg.cc/B6nTGLPZ/tss-consultancy.webp",
-    role: "SDE Intern",
+    role: "Software Engineer",
+    company: "Disclosure360 Solutions Pvt. Ltd.",
+    date: "Jan 2025 - Present",
+    desc: "",
+    skills: [
+      "Java",
+      "Springboot",
+      "Angular",
+      "MongoDB"
+    ],
+    doc: ""
+  },
+  {
+    id: 1,
+    img: "https://i.postimg.cc/B6nTGLPZ/tss-consultancy.webp",
+    role: "Associate Software Engineer",
     company: "TSS Consultancy Pvt. Ltd.",
-    date: "December 2023 - April 2024",
+    date: "June 2024 - Dec 2024",
+    desc: "",
+    skills: [
+      ".NET",
+      "AngularJS",
+      "SQL"
+    ],
+    doc: ""
+  },
+  {
+    id: 2,
+    img: "https://i.postimg.cc/B6nTGLPZ/tss-consultancy.webp",
+    role: "Associate Software Engineer - Intern",
+    company: "TSS Consultancy Pvt. Ltd.",
+    date: "Dec 2023 - Apr 2024",
     desc: "As a Software Development Engineer (SDE) intern, I am actively engaged in a dynamic internship at TSS Consultancy Pvt Ltd., contributing to a live project focused on developing an SDK library for clients. The primary objective of this project involves the seamless communication between clients and the API endpoint. My responsibilities include receiving crucial information from clients in JSON format, encrypting the data using the SDK, and securely transmitting it to the API endpoint. Additionally, I am involved in retrieving encrypted data from the endpoint, decrypting the JSON format, and ensuring the integrity of the data flow. This internship provided me an opportunity, allowing me to further enhance my skills and contribute to the successful implementation of this significant project.",
     skills: [
       "Java",
       "OOPS"
     ],
     doc: ""
-  },
+  }
+  
 ];
 
 export const education = [
@@ -232,7 +262,7 @@ export const education = [
     id: 0,
     img: "https://i.postimg.cc/pd6fRVfD/mu.jpg",
     school: "Marwadi University - Rajkot,Gujarat",
-    date: "Sept 2021 - Present",
+    date: "Sept 2021 - May 2025",
     grade: " 6.41 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Information and Communication Technology at Marwadi University, Rajkot. I have completed 5 semesters and have a CGPA of 6.41. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. Currently I am learning and working on exciting projects and exploring.",
     degree: "Bachelor of Technology - BTech, Information and Communication Technology",
