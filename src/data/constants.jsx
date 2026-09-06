@@ -152,7 +152,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://i.postimg.cc/B6nTGLPZ/tss-consultancy.webp",
+    img: "https://disclosure360.in/assets/logo/d360-logo-coloured.svg",
     role: "Software Engineer",
     company: "Disclosure360 Solutions Pvt. Ltd.",
     date: "Jan 2025 - Present",
